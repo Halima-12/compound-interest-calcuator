@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="compound interest.css" />
+
+<h1 class="title">Compound interest caculator</h1>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+<input id="principal" class="input form-control" type="number"
+placeholder="Type principal here" required /></div>
+<div class="col-md-2"></div>
+</div><br>
+
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-8">
+<input id="timesInterestApplied" class="input form-control" type="number"
+placeholder="Type times interest applied here" required /></div>
+<div class="col-md-2"></div>
+</div><br>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+<input id="rate" class="input form-control" type="number"
+placeholder="Type rate here" required /></div>
+<div class="col-md-2"></div>
+</div><br>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+<input id="time" class="input form-control" type="number"
+placeholder="Type time here" required /></div>
+<div class="col-md-2"></div>
+</div><br>
+
+<div class="row">
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8 form-group">
+        <button  class="btn btn-primary form-control form-control" onclick="calculateCompoundInterest()"
+            >Click To Get Compound Interest</button></br>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8 alert alert-success">
+        <p id="output">Here is your answer</p></br>
+    </div>
+
+    <div class="col-md-2"></div>
+</div>
+
+
+<script src="compound interest.js"></script>
